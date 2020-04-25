@@ -2,3 +2,37 @@
 {
   height:100vh;
 }
+
+div .custom-div
+{
+  max-width: 100%;
+  margin:0;
+}
+
+div .custom-div:hover
+{
+  background-color: rgba(187, 0, 0, 0.75);
+}
+
+.writer
+{
+  color: rgb(187, 0, 0);
+}
+
+.writer:hover
+{
+  color: rgb(187, 0, 0);
+}
+
+.experiences
+{
+  display: inline-block;
+  max-width: 33.33333%;
+  color: rgb(187, 0, 0);
+}
+
+a:hover
+{
+  color: black;
+}
+
