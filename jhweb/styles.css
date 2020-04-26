@@ -1,6 +1,8 @@
 .img-container
 {
   height:100vh;
+  background-image:url('Withdrawal_Crew Photo_01.jpg');
+  opacity: .8;
 }
 
 div .custom-div
@@ -11,7 +13,7 @@ div .custom-div
 
 div .custom-div:hover
 {
-  background-color: rgba(187, 0, 0, 0.75);
+  background-color: lightgray;
 }
 
 .writer
@@ -21,6 +23,7 @@ div .custom-div:hover
 
 .writer:hover
 {
+  background-color: lightgray;
   color: rgb(187, 0, 0);
 }
 
@@ -33,6 +36,13 @@ div .custom-div:hover
 
 a:hover
 {
-  color: black;
+  color: rgb(187, 0, 0);
+  text-decoration: none;
 }
 
+.team-member img
+{
+  border-image-repeat: repeat;
+  width: 275px;
+  height: auto;
+}
